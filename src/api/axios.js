@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://qr-server.onrender.com/';
+const BASE_URL = 'https://qrmovie-backend.up.railway.app/';
 
 export default axios.create({
     baseURL: BASE_URL
