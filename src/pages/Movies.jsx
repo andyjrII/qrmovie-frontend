@@ -5,7 +5,7 @@ import axios from '../api/axios';
 const Movies = () => {
     const [movies, setMovies] = useState([]);
     const { id } = useParams();
-    const MOVIELIST_URL = `/movies/${id}`;
+    const MOVIELIST_URL = `/${id}`;
 
     const getMovieList = async () => {
         try {
